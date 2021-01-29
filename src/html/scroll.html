@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+<style> /* width */
+    ::-webkit-scrollbar {
+       
+      width: 10px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #ffffff; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 25px;
+      background: #a38585; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555
+  }
+  /* Buttons */
+::-webkit-scrollbar-button:single-button {
+  background-color: #bbbbbb;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 16px;
+}
+/* Up */
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #555555 transparent;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #777777 transparent;
+}
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: #555555 transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #777777 transparent transparent transparent;
+}
+    </style>
+
+
+   
+    <P>A Turing Machine (TM) is a mathematical model which consists of an infinite length tape divided into cells on which input is given. It consists of a head which reads the input tape. A state register stores the state of the Turing machine. After reading an input symbol, it is replaced with another symbol, its internal state is changed, and it moves from one cell to the right or left. If the TM reaches the final state, the input string is accepted, otherwise rejected.
+
+        A TM can be formally described as a 7-tuple (Q, X, ∑, δ, q0, B, F) where −<br>
+        <br>
+        Q is a finite set of states
+        <br>
+        X is<br>v the tape alphabet
+        vv
+        ∑ <br><br><br><br><br>vis the input alphabet
+        
+        δ is a transition function; δ : Q × X → Q × X × {Left_shift, Right_shift}.
+        
+        q0 is the initial state<br><br><br>
+        <br><br><br>
+        B is the<br> blank symbol
+        <br>
+        F is<br> the set of final states
+        <br>
+        Comp<br>arison with the previous automaton
+        The foll<br>owing table shows a comparison of how a Turing machine differs from Finite Automaton and Pushdown Automaton.
+        <br>
+        Mach<br>ine	Stack Data Structure<br><br><br>	Deterministic?
+        Finite A<br>utomaton	N.A	Yes
+        Pushdown Aut<br>omaton	Last In First Out(LIFO)	No
+        Turing Machine	<br>Infinite tape	Yes
+        Example of Turing ma<br>chine
+        Turing machine M = (Q, X<br>, ∑, <br>δ, q0, B, F) with
+        <br>
+        Q = v<br>{q0, q1, q2, qf}
+        X = {a, b<br>}
+        ∑ = {1}<br>
+        q0 = {q0}<br>
+        B = blank sym<br>bol
+        F = {qf }v<br><br>
+        δ is given by −<br>
+        <br>
+        Tapev alphabet symbol	Present State ‘q0’	Present State ‘q1’	Present State ‘q2’
+        a	1<br>Rq1	1Lq0	1Lqf<br><br><br><br><br>
+        b	1Lq2	1Rq1	1Rqf
+        Here the <br>transition 1Rq1 implies that the w<br>rite<br> symbol is 1, the tape moves right, and the next state is q1. Similarly, the transition 1Lq2 implies that the write symbol is 1, the tape moves left, and the next state is q2.
+        v<br>
+        Time and Space Complexity of a Turing Machine
+        For a<br> Turing machine, the time complexity refers to<br> the measure of the number of times the tape moves when the machine is initialized for some input symbols and the space complexity is the number of cells of the tape written.
+        <br>
+        Timev complexity all reasonable functions −
+        v<br>
+        T(n) <br>= O(n log n)
+        <br>
+        TM's<br> space complexity −
+        <br>
+        S(n)v<br> = O(n)</P>
+v<br>
+     v<br>v<br>   
+   </body>
+</html>

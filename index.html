@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>spices india</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* width */
+ ::-webkit-scrollbar {
+       
+       width: 15px;
+     }
+     /* Track */
+     ::-webkit-scrollbar-track {
+       background: #ffffff; 
+     }
+      
+     /* Handle */
+     ::-webkit-scrollbar-thumb {
+         border-radius: 25px;
+       background: #a38585; 
+     }
+     
+     /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+       background: rgb(83, 29, 29)
+   }
+   /* Buttons */
+ ::-webkit-scrollbar-button:single-button {
+   background-color: #bbbbbb;
+   display: block;
+   border-style: solid;
+   height: 13px;
+   width: 16px;
+ }
+ /* Up */
+ ::-webkit-scrollbar-button:single-button:vertical:decrement {
+   border-width: 0 8px 8px 8px;
+   border-color: transparent transparent #555555 transparent;
+ }
+ 
+ ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+   border-color: transparent transparent #777777 transparent;
+ }
+ /* Down */
+ ::-webkit-scrollbar-button:single-button:vertical:increment {
+   border-width: 8px 8px 0 8px;
+   border-color: #555555 transparent transparent transparent;
+ }
+ 
+ ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+   border-color: #777777 transparent transparent transparent;
+ }
+
+
+
+
+
+
+
+
+
+
+
+     table {
+        margin: auto;
+    }
+
+    td {
+        padding: 10px 100px 100px 10px;
+        border: 5px;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: large;
+    }
+
+    .content {
+        padding-bottom: 0.5px;
+    }
+
+    .imgleft {
+        display: block;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .imgright {
+        display: block;
+        margin-left: 140px;
+    }
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('./src/img/spice.webp');
+        background-repeat: repeat-x;
+        background-size: 500px 300px;
+        background-color: rgb(75, 126, 75); 
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 29px auto;
+        margin-left: 1175px;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: block;
+    
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(228, 72, 72);
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 270px 3px;
+        background-color: black;
+        color: white;
+        padding: 4px 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(87, 82, 82);
+    }
+
+    .container {
+        border: 2px solid rgb(31, 26, 26);
+        margin: 250px auto;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        color:black;
+        background-image: url(./src/img/mirch.jpg);
+        
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="./src/img/download.jpg" alt="">
+            <div>Indian Masala</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Get yourself enrolled for monthly purchases </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+           
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <table>
+        <tr>
+            <td class="img"> <img src="https://5.imimg.com/data5/UX/NU/MY-35858390/pure-turmeric-powder-500x500.jpg" width="500"
+                    height="500"> <br><br> <b> Haldi Powder</b> <br>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 27 rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 20rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+            <td class="imgright"> <img src="./src/img/mirchi.jpg"
+                    width="500" height="500"> <br><br> <b> mirchi powder </b> </td>
+        </tr>
+        <tr>
+            <td class="img"> <img src="https://cdn.shopify.com/s/files/1/0245/3785/8100/products/Coriander_Powder_nutrixia_food_600x.jpg?v=1581423577"
+                    width="500" height="500"> <br><br> <b> dhaniya powder <b> </td>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 15rs/100g <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 35rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+            <td class="imgright"> <img
+                    src="https://www.whiskaffair.com/wp-content/uploads/2018/03/Cumin-Powder-4.jpg"
+                    width="500" height="500"> <br><br> <b> jeera powder <b> </td>
+        </tr>
+        <tr>
+            <td class="img"> <img
+                    src="https://www.tasteofhome.com/wp-content/uploads/2019/05/cardamom-shutterstock_1111588118.jpg"
+                    width="500" height="500"> <br><br> <b> elaichi powder<b> </td>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 15rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Freshmart Online Grocery store </title>
+     <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+        background-image: url("https://cdn.geekwire.com/wp-content/uploads/2020/02/amzngo1.jpeg");
+        background-color: #d5f0db;
+        background-repeat: repeat-x;
+        background-size: 600px 280px;
+    
+        
+    }
+
+    h1 {
+        display: inline-block;
+        margin-left: 400px;
+        margin-bottom: 2px;
+        margin-top: 100px;
+        font-size: 1.5cm;
+        color: white;
+        background-color: #197237;
+        border-radius: 10px;
+    }
+
+    h2 {
+        display: inline-block;
+        margin-left: 830px;
+        margin-bottom: 100px;
+        margin-top: 0;
+        color: white;
+        background-color: #197237;
+        border-radius: 3px;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    td {
+        padding: 10px 100px 100px 10px;
+        border: 5px;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: large;
+    }
+
+    .content {
+        padding-bottom: 0.5px;
+    }
+
+    .imgleft {
+        display: block;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .imgright {
+        display: block;
+        margin-left: 140px;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+       
+       width: 10px;
+     }
+     /* Track */
+     ::-webkit-scrollbar-track {
+       background: #ffffff; 
+     }
+      
+     /* Handle */
+     ::-webkit-scrollbar-thumb {
+         border-radius: 25px;
+       background: #a38585; 
+     }
+     
+     /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+       background: #555
+   }
+   /* Buttons */
+ ::-webkit-scrollbar-button:single-button {
+   background-color: #bbbbbb;
+   display: block;
+   border-style: solid;
+   height: 13px;
+   width: 16px;
+ }
+ /* Up */
+ ::-webkit-scrollbar-button:single-button:vertical:decrement {
+   border-width: 0 8px 8px 8px;
+   border-color: transparent transparent #555555 transparent;
+ }
+ 
+ ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+   border-color: transparent transparent #777777 transparent;
+ }
+ /* Down */
+ ::-webkit-scrollbar-button:single-button:vertical:increment {
+   border-width: 8px 8px 0 8px;
+   border-color: #555555 transparent transparent transparent;
+ }
+ 
+ ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+   border-color: #e0bcbc transparent transparent transparent;
+
+ }
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color:transparent;
+  overflow: auto;
+}
+#home {
+    float:left
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: right;
+  padding: 12px;
+  color: rgb(245, 237, 237);
+  text-decoration: hotpink;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+
+<body>
+
+   
+
+<div class="navbar">
+  <a id=home class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+</div>
+    <h1> WELCOME TO FRESHMART</h1>
+    <h2> Best online Grocery Store in town </h2>
+
+    <table>
+        <tr>
+            <td class="img"> <img src="https://www.sailusfood.com/wp-content/uploads/2015/07/bhindi.jpg" width="350"
+                    height="300"> <br><br> <b> Bhindi/Ladyfinger <b> </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 27 rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 20rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+            <td class="imgright"> <img src="https://static.toiimg.com/photo/msid-69297779/69297779.jpg?203261"
+                    width="350" height="300"> <br><br> <b> Lauki/Bottlegaurd <b> </td>
+        </tr>
+        <tr>
+            <td class="img"> <img src="https://images.indianexpress.com/2018/02/corainder-759-thinkstock.jpg"
+                    width="350" height="300"> <br><br> <b> Dhaniya/Coriander <b> </td>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 15rs/100g <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 35rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+            <td class="imgright"> <img
+                    src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/08/10/fn_red-onions-getty_s4x3.jpg.rend.hgtvcom.476.357.suffix/1597096320410.jpeg"
+                    width="350" height="300"> <br><br> <b> Pyaaz/Onions <b> </td>
+        </tr>
+        <tr>
+            <td class="img"> <img
+                    src="https://m.economictimes.com/thumb/height-450,width-600,imgsize-111140,msid-72862126/potato-getty.jpg"
+                    width="350" height="300"> <br><br> <b> Aloo/Potato<b> </td>
+            <td>
+                <ul>
+                    <li>
+                        <p class="content"> Rate: 15rs/kg <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="content"> Enter amount (in grams) &nbsp; <input type="number">
+                        </p>
+                    </li>
+                    <p class="content"> <input type="submit" value="Add To Cart">
+                    </p>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
