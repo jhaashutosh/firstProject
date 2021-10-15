@@ -1,0 +1,200 @@
+/* width */
+ ::-webkit-scrollbar {
+       
+       width: 15px;
+     }
+     /* Track */
+     ::-webkit-scrollbar-track {
+       background: #ffffff; 
+     }
+      
+     /* Handle */
+     ::-webkit-scrollbar-thumb {
+         border-radius: 25px;
+       background: #a38585; 
+     }
+     
+     /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+       background: rgb(83, 29, 29)
+   }
+   /* Buttons */
+ ::-webkit-scrollbar-button:single-button {
+   background-color: #bbbbbb;
+   display: block;
+   border-style: solid;
+   height: 13px;
+   width: 16px;
+ }
+ /* Up */
+ ::-webkit-scrollbar-button:single-button:vertical:decrement {
+   border-width: 0 8px 8px 8px;
+   border-color: transparent transparent #555555 transparent;
+ }
+ 
+ ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+   border-color: transparent transparent #777777 transparent;
+ }
+ /* Down */
+ ::-webkit-scrollbar-button:single-button:vertical:increment {
+   border-width: 8px 8px 0 8px;
+   border-color: #555555 transparent transparent transparent;
+ }
+ 
+ ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+   border-color: #777777 transparent transparent transparent;
+ }
+
+
+
+
+
+
+
+
+
+
+
+     table {
+        margin: auto;
+    }
+
+    td {
+        padding: 10px 100px 100px 10px;
+        border: 5px;
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: large;
+    }
+
+    .content {
+        padding-bottom: 0.5px;
+    }
+
+    .imgleft {
+        display: block;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+    .imgright {
+        display: block;
+        margin-left: 140px;
+    }
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('./src/img/spice.webp');
+        background-repeat: repeat-x;
+        background-size: 500px 300px;
+        background-color: rgb(75, 126, 75); 
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 29px auto;
+        margin-left: 1175px;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: block;
+    
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(228, 72, 72);
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 270px 3px;
+        background-color: black;
+        color: white;
+        padding: 4px 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(87, 82, 82);
+    }
+
+    .container {
+        border: 2px solid rgb(31, 26, 26);
+        margin: 250px auto;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        color:black;
+        background-image: url(./src/img/mirch.jpg);
+        
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
